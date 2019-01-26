@@ -117,7 +117,7 @@ a#close {
     float: right;
     min-height: 506px;
     width: 50%;
-    background: url("../images/m.png") no-repeat;
+    background: url("../images/17.jpg") no-repeat;
     background-size: cover; 
 }
 
@@ -208,7 +208,7 @@ a#close {
 
 #middle .contain {
     min-height: 400px;
-    background-image: url("../images/r.png");
+    background-image: url("../images/16.jpg");
     background-size: cover;
     background-position: right;
     text-align: center;
