@@ -117,7 +117,7 @@ a#close {
     float: right;
     min-height: 506px;
     width: 50%;
-    background: url(https://nessalovis.github.io/DIV-join-us/images/m.PNG) no-repeat;
+    background: url("../images/17.png") no-repeat;
     background-size: cover; 
 }
 
