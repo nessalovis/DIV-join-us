@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Join Us | Welcome </title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" href="https://developersinvogue.org/wp-content/themes/div/img/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Krub|Raleway|Roboto|Oswald|Poiret+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+	<header>
+		<div class="contain">
+			<a href="new.html"><img style="height: 40px" src="https://developersinvogue.org/wp-content/themes/div/img/developers-in-vogue-logo.svg"></a>
+			<ul id="navmenu">
+				<li>
+					<a href="#"><span class="glyphicon glyphicon-menu-hamburger" onclick="openNav()"></span></a>
+				</li>
+			</ul>
+			<div class="overlay" id="myNav">
+				<a href="#" id="close"><span class="glyphicon glyphicon-remove" class="closebtn" onclick="closeNav()"></span></a>
+				<div class="overlay_content">
+					<a href="https://developersinvogue.org/about-us/">ABOUT US</a>
+					<a href="https://developersinvogue.org/our-groove/">OUR GROOVE</a>
+					<a href="https://developersinvogue.org/boot-camp/">BOOTCAMP</a>
+					<a href="https://developersinvogue.org/blog/">BLOG</a>
+					<a href="https://developersinvogue.org/get-involved/">GET INVOLVED</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+	<section id="head">
+		<div class="contain">
+			<div id="left">
+				<img src="images/7.jpg">
+			</div>
+			<div id="right">
+				<h1>THE DIV COMMUNITY</h1>
+				<div id="line1"></div>
+				<p>
+					Developers In Vogue aims at creating a relevant community of highly skilled females who are passionate about using technology to revolutionize Africa and beyond. Are you a female interested in being a developer? We will be glad to have you as part of our community! What we want is simple – to make our ladies amazing at tech. We welcome females from diverse backgrounds and are looking out for those who would unleash their potentials when given the opportunity. We are willing to invest into your training and will continue to support you in your career path.
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="boxes">
+		<div class="contain">
+			<h2>
+				JOIN OUR COMMUNITY
+			</h2>
+			<div id="line2"></div>
+			<div class="box" id="border">
+				<span class="glyphicon glyphicon-user" id="glyph"></span>
+				<h3>DEVELOPERS</h3>
+				<p id="info">
+					Are you a female developer? Sign up with DIV and become one of our developers. We will match you with good paying jobs that fit your expertise. You will also get access to our client pool and select jobs that are a good fit for you. 
+				</p>
+				<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" id="signup">Sign up</button>
+				<div class="modal fade" id="myModal" role="dialog">
+    				<div class="modal-dialog">
+      					<div class="modal-content">
+        					<div class="modal-header">
+          						<button type="button" class="close" data-dismiss="modal" style="font-size: 40px;">&times;</button>
+          						<h4 class="modal-title">BECOME A DIVA</h4>
+        					</div>
+	        				<div class="modal-body">
+	        					<form action="/action_page.php">
+								    <div class="form-group">
+								     	<label>Full Name</label> <br>
+								      	<input id="field" type="text" required>
+								    </div>
+								    <div class="form-group">
+								      	<label>Email Address</label> <br>
+								      	<input id="field" type="email" required>
+								    </div>
+								    <div class="form-group">
+								      	<label>Phone Number</label> <br>
+								      	<input id="field" type="tel" required>
+								    </div>
+								    <div class="form-group">
+								      	<label>What skills do you have?</label> <br>
+										<div id="lists">
+											<label class="container"><p>Front-End Web Development</p> 
+												<input type="checkbox">
+											  	<span class="checkmark"></span>
+											</label>
+											<label class="container"><p>Back-End Web Development</p> 
+											  	<input type="checkbox">
+											  	<span class="checkmark"></span>
+											</label>
+											<label class="container"><p>Full Stack Web Developer</p> 
+											  	<input type="checkbox">
+											  	<span class="checkmark"></span>
+											</label>
+											<label class="container"><p>Mobile App Developer</p> 
+											  	<input type="checkbox">
+											  	<span class="checkmark"></span>
+											</label>
+											<label class="container"><p>Software Developer</p> 
+											  	<input type="checkbox">
+											  	<span class="checkmark"></span>
+											</label>
+										</div>
+										<div class="form-group">
+									      	<label>Please upload photo<h5>Picture must be a colored professional profile picture not more than 500KB</h5></label> <br>
+									      	<input type="file" id="myFile">
+									    </div>
+								    </div>
+				    				<button type="submit" class="btn btn-default">SUBMIT</button>
+			  					</form>
+	        				</div>
+      					</div>     
+					</div>
+  				</div>
+			</div>
+			<div class="box" id="border">
+				<span class="glyphicon glyphicon-briefcase" id="glyph"></span>
+				<h3>MENTORS</h3>
+				<p id="info">
+					We are happy to have industry experts in STEM mentor our ladies either face-to-face or remotely. We would particularly love to have people who can provide the support that would be relevant to their professional development. 
+				</p>
+				<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1" id="signup">Sign up</button>
+				<div class="modal fade" id="myModal1" role="dialog">
+    				<div class="modal-dialog">
+      					<div class="modal-content">
+        					<div class="modal-header">
+          						<button type="button" class="close" data-dismiss="modal" style="font-size: 40px;">&times;</button>
+          						<h4 class="modal-title">BECOME A MENTOR</h4>
+        					</div>
+	        				<div class="modal-body">
+	        					<form action="/action_page.php">
+								    <div class="form-group">
+								     	<label>Full Name</label> <br>
+								      	<input id="field" type="text" name="name" required>
+								    </div>
+								    <div class="form-group">
+								      	<label>Email Address</label> <br>
+								      	<input id="field" type="email" name="location" required>
+								    </div>
+								    <div class="form-group">
+								      	<label>Phone Number</label> <br>
+								      	<input id="field" type="tel" name="location" required>
+								    </div>
+								    <div class="form-group">
+								     	<label>Occupation and Place of Work</label> <br>
+								      	<input id="field" type="text" name="name" required>
+								    </div>
+								    <div class="form-group">
+								     	<label>Do you have any previous experience or connection with the African continent?</label> <br>
+								     	<textarea id="field" required=""></textarea>
+								    </div>
+								    <div class="form-group">
+								     	<label>Please share a little bit about yourself and your passion for supporting this project.</label> <br>
+								     	<textarea id="field" required=""></textarea>
+								    </div>
+								    <div class="form-group">
+								  		<label>What particular skills/expertise can you offer as a mentor? <h5>We particularly need mentors with experience in technology (front-end web development, back-end web development, UI/UX design, graphic design, apps development, cyber security, data science, etc )</h5></label> <br>
+								     	<textarea id="field" required=""></textarea>
+								    </div>
+								    <div class="form-group">
+								      	<label>Would you be able commit at least 1 hour per week to provide feedback and support to one of our participants?<h5>You will be given a briefing session and guide to help you run effective sessions with your assigned mentee. Sessions can be done entirely remotely (for international mentors) or as a mixture of calls and face to face meetings for locally-based mentors</h5></label> <br>
+										<div id="lists">
+											<label class="container" id="time"><p>Yes</p> 
+												<input type="checkbox">
+											  	<span class="checkmark"></span>
+											</label>
+											<label class="container"><p>No (But I can offer one-off support in other ways)</p> 
+											  	<input type="checkbox">
+											  	<span class="checkmark"></span>
+											</label>
+											<label class="container"><p>Maybe (This time frame doesn't work for me but maybe in the future)</p> 
+											  	<input type="checkbox">
+											  	<span class="checkmark"></span>
+											</label>
+										</div>
+								    </div>
+								    <div class="form-group">
+								  		<label>Apart from mentorship, what other support or tools can you offer to our budding female developers or the Developers in Vogue organization as a whole? e.g: internship arrangements, branding support, publicity, connections, programming resources, business resources, funding, office space, etc </label> <br>
+								     	<textarea id="field" required=""></textarea>
+								    </div>
+								    <div class="form-group">
+								  		<label>How did you hear of Developers In Vogue?</label> <br>
+								     	<textarea id="field" required=""></textarea>
+								    </div>
+								    <div class="form-group">
+								      	<label>Please upload photo <h5>Picture must be a colored professional profile picture not more than 500KB</h5></label> <br>
+								      	<input type="file" id="myFile">
+								    </div>
+				    				<button type="submit" class="btn btn-default">SUBMIT</button>
+			  					</form>
+	        				</div>
+      					</div>     
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<span class="glyphicon glyphicon-ok" id="glyph"></span>
+				<h3>VOLUNTEERS</h3>
+				<p id="info">
+					Are you enthusiastic about taking initiative? Are you willing to invest few hours per month to volunteer with us? Based on your skill set, we would match you to volunteering roles in our organization. Volunteer with us.
+				</p>
+				<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2" id="signup">Sign up</button>
+				<div class="modal fade" id="myModal2" role="dialog">
+    				<div class="modal-dialog">
+      					<div class="modal-content">
+        					<div class="modal-header">
+          						<button type="button" class="close" data-dismiss="modal" style="font-size: 40px;">&times;</button>
+          						<h4 class="modal-title">BECOME A VOLUNTEER</h4>
+        					</div>
+	        				<div class="modal-body">
+	        					<form action="/action_page.php">
+								    <div class="form-group">
+								     	 <label>Full Name</label> <br>
+								      	<input id="field" type="text" name="name" required>
+								    </div>
+								    <div class="form-group">
+								      	<label>Email Address</label> <br>
+								      	<input id="field" type="email" name="location" required>
+								    </div>
+								    <div class="form-group">
+								      	<label>Phone Number</label> <br>
+								      	<input id="field" type="tel" name="location" required>
+								    </div>
+								    <div class="form-group">
+								  		<label>Please share a little bit about yourself and your passion for supporting this project.</label> <br>
+								     	<textarea id="field" required=""></textarea>
+								    </div>
+								    <div class="form-group">
+								      	<label>In which areas can you assist with?</label> <br>
+										<div id="lists">
+											<label class="container" id="time"><p>Sales</p> 
+												<input type="checkbox">
+											  	<span class="checkmark"></span>
+											</label>
+											<label class="container"><p>Fund Raising</p> 
+											  	<input type="checkbox">
+											  	<span class="checkmark"></span>
+											</label>
+											<label class="container"><p>Graphic Design</p> 
+											  	<input type="checkbox">
+											  	<span class="checkmark"></span>
+											</label>
+										</div>
+								        <div id="lists">
+								        	<label class="container"><p>Curriculum Design and Management</p> 
+											  	<input type="checkbox">
+											  	<span class="checkmark"></span>
+											</label>
+								        	<label class="container"><p>Finance</p> 
+												<input type="checkbox">
+											  	<span class="checkmark"></span>
+											</label>
+											<label class="container"><p>Recruitment</p> 
+											  	<input type="checkbox">
+											  	<span class="checkmark"></span>
+											</label>
+											<label class="container" id="time"><p>Project Management</p> 
+												<input type="checkbox">
+											  	<span class="checkmark"></span>
+											</label>
+											<label class="container"><p>Organization of Sessions</p> 
+											  	<input type="checkbox">
+											  	<span class="checkmark"></span>
+											</label>
+											<label class="container"><p>Blogging</p> 
+											  	<input type="checkbox">
+											  	<span class="checkmark"></span>
+											</label>
+											<label class="container" id="time"><p>Business Development</p> 
+												<input type="checkbox">
+											  	<span class="checkmark"></span>
+											</label>
+											<label class="container"><p>Legal</p> 
+											  	<input type="checkbox">
+											  	<span class="checkmark"></span>
+											</label>
+											<label class="container"><p>Photography/Videography</p> 
+											  	<input type="checkbox">
+											  	<span class="checkmark"></span>
+											</label>
+											<label class="container" id="time"><p>Grant and Proposal Writing</p>
+												<input type="checkbox">
+											  	<span class="checkmark"></span>
+											</label>
+											<label class="container"><p>Press/Public Relations</p> 
+											  	<input type="checkbox">
+											  	<span class="checkmark"></span>
+											</label>
+											<label class="container"><p>Other</p> 
+											  	<input type="checkbox">
+											  	<span class="checkmark"></span>
+											</label>
+											<label>Please specify : </label> <br>
+								      		<input id="field" type="text" name="name" required>
+								        </div>
+								    </div>
+								    <div class="form-group">
+								      	<label>Can you give more details on the specific activities you would want to undertake as a volunteer in reference to your choices in question above?</label> <br>
+								      	<textarea id="field" required=""></textarea>
+								    </div>
+								    <div class="form-group">
+								      	<label>Would you be able commit at least 1 hour per week to provide feedback and support to one of our participants?<h5>You will be given a briefing session and guide to help you run effective sessions with your assigned mentee. Sessions can be done entirely remotely (for international mentors) or as a mixture of calls and face to face meetings for locally-based mentors</h5></label> <br>
+										<div id="lists">
+											<label class="container" id="time"><p>Monday 9am - 5pm</p> 
+												<input type="checkbox">
+											  	<span class="checkmark"></span>
+											</label>
+											<label class="container"><p>Tuesday 9am - 5pm</p> 
+											  	<input type="checkbox">
+											  	<span class="checkmark"></span>
+											</label>
+											<label class="container"><p>Wednesday 9am - 5pm</p> 
+											  	<input type="checkbox">
+											  	<span class="checkmark"></span>
+											</label>
+											<label class="container"><p>Thursday 9am - 5pm</p> 
+											  	<input type="checkbox">
+											  	<span class="checkmark"></span>
+											</label>
+											<label class="container"><p>Friday 9am - 5pm</p> 
+											  	<input type="checkbox">
+											  	<span class="checkmark"></span>
+											</label>
+										</div>
+								    </div>
+								    <div class="form-group">
+								      	<label>Are you able to assist remotely? How many hours per week?</label> <br>
+								      	<textarea id="field" required=""></textarea>
+								    </div>
+								    <div class="form-group">
+								      	<label>Do you have any ideas on how we can make coding sessions fun and interactive?</label> <br>
+								      	<textarea id="field" required=""></textarea>
+								    </div>
+								    <div class="form-group">
+								  		<label>How did you hear of Developers In Vogue?</label> <br>
+								     	<textarea id="field" required=""></textarea>
+								    </div>
+				    				<button type="submit" class="btn btn-default">SUBMIT</button>
+			  					</form>
+	        				</div>
+      					</div>     
+					</div>
+  				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section id="middle">
+		<div class="contain">
+			<h2>
+				NEED A DEVELOPER?
+			</h2>
+			<p id="hinfo">
+				Developers In Vogue has the brightest and smartest <br>female developers <br> in the country who are ready to assist you in any project.
+			</p>
+			<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3" id="request">Make A Request</button>
+			<div class="modal fade" id="myModal3" role="dialog">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+	  						<button type="button" class="close" data-dismiss="modal" style="font-size: 40px;">&times;</button>
+	  						<h4 class="modal-title">REQUEST A DEVELOPER</h4>
+						</div>
+	    				<div class="modal-body">
+	    					<form action="/action_page.php">
+							    <div class="form-group">
+							     	<label>Full Name</label> <br>
+							      	<input id="field" type="text" required>
+							    </div>
+							    <div class="form-group">
+							      	<label>Email Address</label> <br>
+							      	<input id="field" type="email" required>
+							    </div>
+							    <div class="form-group">
+							      	<label>Phone Number</label> <br>
+							      	<input id="field" type="tel" required="">
+							    </div>
+							    <div class="form-group">
+							      	<label>What kind of project do you need?</label> <br>
+									<div id="lists">
+										<label class="container"><p>Website</p> 
+											<input type="checkbox">
+										  	<span class="checkmark"></span>
+										</label>
+										<label class="container"><p>Web App</p> 
+										  	<input type="checkbox">
+										  	<span class="checkmark"></span>
+										</label>
+										<label class="container"><p>Mobile App</p> 
+										  	<input type="checkbox">
+										  	<span class="checkmark"></span>
+										</label>
+										<label class="container"><p>Software Program</p> 
+										  	<input type="checkbox">
+										  	<span class="checkmark"></span>
+										</label>
+									</div>
+							    </div>
+			    				<button type="submit" class="btn btn-default">ADD</button>
+		  					</form>
+	    				</div>
+					</div>     
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<footer>
+		<div class="contain">
+			<div id="qlinks">
+				<div class="box1">
+					<h4>ABOUT US</h4>
+					<ul>
+						<li><a href="https://developersinvogue.org/about-us/#the-problem">The Problem</a></li>
+						<li><a href="https://developersinvogue.org/about-us/#our-solution">Our Solution</a></li>
+						<li><a href="https://developersinvogue.org/about-us/#our-relevance">Our Relevance</a></li>
+						<li><a href="https://developersinvogue.org/about-us/#our-you">Our "YOU"</a></li>
+					</ul>
+				</div>
+				<div class="box1">
+					<h4>QUICK LINKS</h4>
+					<ul>
+						<li><a href="https://developersinvogue.org/faq">Frequently Asked Questions</a></li>
+						<li><a href="http://signup.developersinvogue.org/">Apply For Bootcamp</a></li>
+						<li><a href="http://developersinvogue.com/">Bring Us Your Projects</a></li>
+						<li><a href="https://developersinvogue.org/about-us/#contact-us">Contact Us</a></li>
+					</ul>
+				</div>
+				<div class="box1">
+					<h4>GET INVOLVED</h4>
+					<ul>
+						<li><a href="https://developersinvogue.org/get-involved/#be-a-developer-in-vogue">Be a Developer In Vogue</a></li>
+						<li><a href="https://developersinvogue.org/get-involved/#vol-with-us">Volunteer with Us</a></li>
+						<li><a href="https://developersinvogue.org/get-involved/#be-a-mentor">Be A Mentor</a></li>
+						<li><a href="https://developersinvogue.org/get-involved/#donate">Donate</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="f-info">
+				<div class="box1">
+					<ul>
+						<li><div id="logo"><img style="width: 100px" src="https://developersinvogue.org/wp-content/themes/div/img/ds.svg"></div></li>
+						<li><h5>DEVELOPERS IN VOGUE</h5></li>
+					</ul>
+				</div>
+				<div class="box1" id="n-bt">
+					<ul>
+						<li><h5>#LETASISTERKNOW</h5></li>
+						<li><h5>&#169; 2018 All Rights Reserved</h5></li>
+					</ul>
+				</div>
+				<div class="box1" id="n-bt">
+					<ul>
+						<li><h5><span class="glyphicon glyphicon-phone"></span> +233 55 555 2836</h5></li>
+						<li><h5><span class="glyphicon glyphicon-envelope"></span>      code@developersinvogue.org</h5></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<script>
+		function openNav() {
+		    document.getElementById("myNav").style.width = "100%";
+		}
+
+		function closeNav() {
+		    document.getElementById("myNav").style.width = "0";
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,757 @@
+body {
+    font: 15px/1.5 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* global */
+.contain {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header section */
+header .contain {
+    position: fixed;
+}
+
+header .contain img {
+    float: left;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+header .contain ul {
+    float: right;
+    list-style: none;
+}
+
+header .contain ul li {
+    margin-right: 50px;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+header .contain ul li a {
+    color: #093A69;
+}
+
+
+/* Nav Links overlay */
+.overlay {    
+    height: 100%;
+    width: 0;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow-x: hidden; 
+    transition: 0.5s; 
+}
+
+.overlay_content {
+    position: relative;
+    /*top: 25%; */
+    width: 100%;
+    text-align: right;
+    margin-top: 30px; 
+}
+
+.overlay a {
+    padding: 5px;
+    text-align: left;
+    margin-left: 50px;
+    /*margin-right: 70px;*/
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    display: block; 
+    transition: 0.3s;
+    font-family: 'Raleway', sans-serif;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #093A69;
+    text-decoration: none;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+a#close {
+    margin-left: 50px;
+    font-size: 25px;
+    margin-top: 23px;
+}
+
+
+/* section#head */
+#head .contain #left {
+    float: left;
+    min-height: 506px;
+    width: 50%;
+}
+
+#head .contain #left img {
+    float: left;
+    min-height: 506px;
+    width: 100%;
+}
+
+#head .contain #right {
+    float: right;
+    min-height: 506px;
+    width: 50%;
+    background: url(../images/17.png) no-repeat;
+    background-size: cover; 
+}
+
+#head .contain #right h1 {
+    text-align: center;
+    color: #093A69;
+    margin-top: 180px;
+    font-size: 30px;
+}
+
+#head .contain #right #line1 {
+    height: 3px;
+    width: 77px;
+    background-color: #093A69;
+    float: right;
+    margin-right: 230px;
+}
+
+#head .contain #right p {
+    margin-top: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* section#boxes */
+#boxes .contain {
+    margin-top: 100px;
+}
+
+#boxes .contain h2 {
+    text-align: center;
+    color: #093A69;
+}
+
+#boxes .contain #line2 {
+    height: 3px;
+    width: 77px;
+    background-color: #093A69;
+    margin-right: 600px;
+    float: right;
+}
+
+#boxes .box {
+    margin-top: 80px;
+    float: left;
+    width: 33.33%;
+    padding: 30px 50px 20px 50px;
+    text-align: center;
+    line-height: 30px;
+}
+
+#boxes .box p#info {
+    color: #b2b2b2;
+    line-height: 30px;
+    padding: 0px 25px;
+}
+
+#boxes .box#border {
+    border-right: 1px #e2e2e2 solid;
+}
+
+#boxes .box #glyph {
+    font-size: 25px;
+    color: #093A69;
+}
+
+#boxes .box h3 {
+    color: #093A69;
+    font-size: 20px;
+}
+
+#boxes .box button#signup {
+    margin-top: 10px;
+    background-color: #F7BE5D;
+    border-color: #F7BE5D;
+    font-size: 15px;
+    padding: 5px 18px;
+    border-radius: 3px;
+}
+
+
+/* section#middle */
+#middle {
+    margin-top: 100px;
+}
+
+#middle .contain {
+    min-height: 400px;
+    background-image: url(../images/16.png);
+    background-size: cover;
+    background-position: right;
+    text-align: center;
+}
+
+#middle .contain h2 {
+    color: #F7BE5D;
+    margin-top: 80px;
+}
+
+#middle .contain p#hinfo {
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+#middle .contain button#request {
+    margin-top: 50px;
+    background-color: #F7BE5D;
+    border-color: #F7BE5D;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+/* footer */
+footer {
+    margin-top: 100px;
+} 
+
+.contain #qlinks,#f-info {
+    width: 80%;
+    margin: auto;
+}
+
+.box1 {
+    width: 33.33%;
+    float: left;
+    padding: 30px 50px 20px 50px;
+    text-align: left;
+}
+
+.box1 h4 {
+    color: #093A69;
+    padding-left: 5px;
+    border-left: 4px solid rgba(90, 132, 181, 0.54);
+    font-family: 'Oswald', sans-serif;
+}
+
+.box1 ul li {
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.box1 ul li a {
+    text-decoration: none;
+    color: #929292;
+    font-family: 'Raleway', sans-serif;
+}
+
+#f-info .box1 {
+    border-top: 1px solid #f2f2f2;
+}
+
+#f-info .box1 ul li {
+    color: #929292;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* form modals */
+div.modal-header {
+    background-color: #093A69;
+    height: 100px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-top: -2px;
+}
+
+div.modal-header h4.modal-title {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#boxes .box div.modal-header button.close,  {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.modal-header .close {
+    color: #ffffff;
+}
+
+div.modal-body {
+    padding: 25px;
+}
+
+form {
+    text-align: left;
+}
+
+form input#field {
+    width: 400px;
+    height: 28px;
+    border: 0.5px solid #275880;
+    border-radius: 50px;
+}
+
+form textarea#field {
+    width: 400px;
+    height: 80px;
+    border: 0.5px solid #275880;
+    border-radius: 5px;
+}
+
+div.form-group {
+    margin-top: 20px;
+}
+
+input[type=text], input[type=tel], input[type=email]  {
+    padding: 10px 20px;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 55px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    font-size: 10px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container p {
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    padding-right: 10px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #275880;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 6px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+form button.btn {
+    margin-left: 400px;
+    background-color: #093A69;
+    color: #ffffff;
+    border-color: #093A69;
+    border-radius: 20px;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+form button.btn:hover {
+    background-color: #093A69;
+    color: #ffffff;
+    border-color: #093A69;
+}
+
+
+/* Media Queries */
+@media(max-width: 767px) {
+    #head .contain #left,
+    #head .contain #right,
+    #boxes .box,
+    footer #qlinks .box1,
+    footer #f-info .box1 {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    #head .contain #right h1 {
+        margin-top: 80px;
+    }
+
+    header .contain ul li a {
+        color: #ffffff;
+    }
+
+
+    header .contain img {
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+
+    header .contain ul li {
+        margin-right: 30px;
+        margin-top: 20px;
+    }
+
+    #head .contain #right #line1,
+    #boxes .contain #line2 {
+        display: none;
+    }
+
+    #boxes h2 {
+        margin-bottom: 50px;
+    }
+
+    #boxes .box {
+        margin-top: -10px;
+        margin-bottom: 10px;
+        padding-top: 50px;
+    }
+
+    #boxes .box#border {
+        border-right: none;
+        border-bottom: 1px #f7f7f7 solid;
+        padding-bottom: 50px;
+    }
+
+    #middle .contain p#hinfo {
+        padding: 0px 15px 0px 15px;
+    }
+
+    #middle #request {
+        margin-bottom: 50px;
+    }
+
+    footer #f-info .box1 {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    footer .box1 ul  {
+        padding-top: 10px;
+    }
+
+    footer .box1 ul li {
+        padding-bottom: 10px;
+    }
+
+    footer #qlinks .box1 h4 {
+        border-left: none;
+    }
+
+    footer .box1#n-bt {
+        border-top: none;
+    }
+
+    form textarea#field, form input#field {
+        width: 70%;
+    }
+
+    form button.btn {
+        margin-left: 0px;
+    }
+}
+
+
+@media(min-width: 768px) and (max-width: 965px){
+    #head .contain #left,
+    #head .contain #right/*,
+    #boxes .box*/ {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    #head .contain #right h1 {
+        margin-top: 80px;
+    }
+
+    header .contain ul li a {
+        color: #ffffff;
+    }
+
+
+    header .contain img {
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+
+    header .contain ul li {
+        margin-right: 30px;
+        margin-top: 20px;
+    }
+
+    #head .contain #right #line1,
+    #boxes .contain #line2 {
+        display: none;
+    }
+
+    #head .contain #right {
+        min-height: 420px;
+        margin-top: 50px;
+    }
+
+    #head .contain #right p {
+        padding: 10px 50px 10px 50px;
+        line-height: 35px;
+    }
+
+    #boxes .contain {
+        margin-top: 20px;
+    }
+
+    #boxes h2 {
+        margin-bottom: 50px;
+    }
+
+    #boxes .box {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #boxes .box#border {
+        border-right: 1px #f7f7f7 solid;
+        /*border-bottom: 1px #f7f7f7 solid;*/
+        padding-bottom: 50px;
+    }
+
+    #middle .contain p#hinfo {
+        padding: 0px 15px 0px 15px;
+    }
+
+    #middle #request {
+        margin-bottom: 50px;
+    }
+
+    footer .contain #qlinks {
+        width: 100%;
+    }
+
+    footer .contain #f-info {
+        width: 100%;
+    }
+
+    footer #qlinks .box1,
+    footer #f-info .box1 {
+        text-align: center;
+        padding: 0px;
+    }
+
+    footer #f-info .box1 {
+        padding-top: 40px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    footer .box1 ul  {
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+
+    footer .box1 ul li {
+        padding-bottom: 10px;
+    }
+
+    footer #qlinks .box1 h4 {
+        border-left: none;
+    }
+
+    form textarea#field, form input#field {
+        width: 70%;
+    }
+
+    form button.btn {
+        margin-left: 0px;
+    }
+}
+
+@media(min-width: 966px) and (max-width: 1024px) {
+    #head .contain #left,
+    #head .contain #right/*,
+    #boxes .box*/ {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    #head .contain #right h1 {
+        margin-top: 80px;
+    }
+
+    header .contain ul li a {
+        color: #ffffff;
+    }
+
+
+    header .contain img {
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+
+    header .contain ul li {
+        margin-right: 30px;
+        margin-top: 20px;
+    }
+
+    #head .contain #right #line1,
+    #boxes .contain #line2 {
+        display: none;
+    }
+
+    #head .contain #right {
+        min-height: 420px;
+        margin-top: 250px;
+    }
+
+    #head .contain #right p {
+        padding: 10px 50px 10px 50px;
+        line-height: 35px;
+    }
+
+    #boxes .contain {
+        margin-top: 0px;
+    }
+
+    #boxes h2 {
+        margin-bottom: 50px;
+    }
+
+    #boxes .box {
+        margin-top: -10px;
+        margin-bottom: 10px;
+        padding-top: 50px;
+    }
+
+    #boxes .box#border {
+        border-right: 1px #f7f7f7 solid;
+        padding-bottom: 50px;
+    }
+
+    #middle .contain p#hinfo {
+        padding: 0px 15px 0px 15px;
+    }
+
+    #middle #request {
+        margin-bottom: 50px;
+    }
+
+    footer .contain #qlinks {
+        width: 100%;
+    }
+
+    footer .contain #f-info {
+        width: 100%;
+    }
+
+    footer #qlinks .box1,
+    footer #f-info .box1 {
+        text-align: center;
+        padding: 0px;
+    }
+
+    footer #f-info .box1 {
+        padding-top: 40px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    footer .box1 ul  {
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+
+    footer .box1 ul li {
+        padding-bottom: 10px;
+    }
+
+    footer #qlinks .box1 h4 {
+        border-left: none;
+    }
+
+    form textarea#field, form input#field {
+        width: 70%;
+    }
+
+    form button.btn {
+        margin-left: 0px;
+    }   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
